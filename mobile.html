@@ -1,0 +1,43 @@
+<!doctype html>
+<html class="no-js" lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Насколько ты Качканарец?</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/mobile.css">
+
+        <script src="https://vk.com/js/api/openapi.js?136"></script>
+        <script type="text/javascript" src="https://vk.com/js/api/share.js?94" charset="windows-1251"></script>
+    </head>
+    <body>
+        <div class="preloader"></div>
+        <div class="splashscreen">
+            <h1 class="splashscreen__line1">Привет, дружище ;)</h1>
+            <p class="splashscreen__line2">Команда паблика <img src="images/znaj.png" alt="Знай"> подготовила тест,<br>с помощью которого ты сможешь<br>объективно оценить свои знания о Качканаре</p>
+            <p class="splashscreen__line3">Подписывайся на <img src="images/znaj.png" alt="Знай"><br>и следи за обновлениями</p>
+            <button class="splashscreen__close"></button>
+        </div>
+        <div class="results">
+            <h1 class="results__header"><span class="results__number"></span> из <span>10</span></h1>
+            <h2 class="results__subheader"></h2>
+            <div class="results__description"></div>
+            <div class="share-wrapper"></div>
+        </div>
+        <main class="app">
+            <ul class="progress"></ul>
+            <div class="question"></div>
+            <div class="special"></div>
+            <ul class="answers"></ul>
+
+            <a href="https://vk.com/znajkch" class="link" target="_blank"><img src="images/mobile-link.png" alt="Знай" style="margin-top:20px;width:130px;"></a>
+        </main>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script>var isMobile = true;</script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

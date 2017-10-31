@@ -1,0 +1,300 @@
+/* font-family: "BenderRegular"; */
+@font-face {
+    font-family: "BenderRegular";
+    src: url("../fonts/Bender/BenderRegular/BenderRegular.eot");
+    src: url("../fonts/Bender/BenderRegular/BenderRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Bender/BenderRegular/BenderRegular.woff") format("woff"),
+    url("../fonts/Bender/BenderRegular/BenderRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "BenderBold"; */
+@font-face {
+    font-family: "BenderBold";
+    src: url("../fonts/Bender/BenderBold/BenderBold.eot");
+    src: url("../fonts/Bender/BenderBold/BenderBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Bender/BenderBold/BenderBold.woff") format("woff"),
+    url("../fonts/Bender/BenderBold/BenderBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "BenderItalic"; */
+@font-face {
+    font-family: "BenderItalic";
+    src: url("../fonts/Bender/BenderItalic/BenderItalic.eot");
+    src: url("../fonts/Bender/BenderItalic/BenderItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Bender/BenderItalic/BenderItalic.woff") format("woff"),
+    url("../fonts/Bender/BenderItalic/BenderItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "BenderBoldItalic"; */
+@font-face {
+    font-family: "BenderBoldItalic";
+    src: url("../fonts/Bender/BenderBoldItalic/BenderBoldItalic.eot");
+    src: url("../fonts/Bender/BenderBoldItalic/BenderBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Bender/BenderBoldItalic/BenderBoldItalic.woff") format("woff"),
+    url("../fonts/Bender/BenderBoldItalic/BenderBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "BenderBlack"; */
+@font-face {
+    font-family: "BenderBlack";
+    src: url("../fonts/Bender/BenderBlack/BenderBlack.eot");
+    src: url("../fonts/Bender/BenderBlack/BenderBlack.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Bender/BenderBlack/BenderBlack.woff") format("woff"),
+    url("../fonts/Bender/BenderBlack/BenderBlack.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "BenderBlackItalic"; */
+@font-face {
+    font-family: "BenderBlackItalic";
+    src: url("../fonts/Bender/BenderBlackItalic/BenderBlackItalic.eot");
+    src: url("../fonts/Bender/BenderBlackItalic/BenderBlackItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Bender/BenderBlackItalic/BenderBlackItalic.woff") format("woff"),
+    url("../fonts/Bender/BenderBlackItalic/BenderBlackItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "BenderLight"; */
+@font-face {
+    font-family: "BenderLight";
+    src: url("../fonts/Bender/BenderLight/BenderLight.eot");
+    src: url("../fonts/Bender/BenderLight/BenderLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Bender/BenderLight/BenderLight.woff") format("woff"),
+    url("../fonts/Bender/BenderLight/BenderLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "BenderLightItalic"; */
+@font-face {
+    font-family: "BenderLightItalic";
+    src: url("../fonts/Bender/BenderLightItalic/BenderLightItalic.eot");
+    src: url("../fonts/Bender/BenderLightItalic/BenderLightItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Bender/BenderLightItalic/BenderLightItalic.woff") format("woff"),
+    url("../fonts/Bender/BenderLightItalic/BenderLightItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0 }
+    100% { opacity: 1 }
+}
+
+html {
+  box-sizing: border-box;
+  background: #fff;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+* {
+    tap-highlight-color: transparent;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+html, body {
+    margin:0 auto;
+    height: 700px;
+    width:1000px;
+}
+
+
+body {
+    font-family: "BenderBlack";
+    background-image: url('../images/questions/1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    position: relative;
+    text-transform: uppercase;
+    color: #404040;
+}
+
+.progress {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    font-size: 24px;
+    top:20px;
+    left:490px;
+}
+.progress__item {
+    display: inline-block;
+    margin-right: 17px;
+}
+.progress__item_active {
+    color: #00cbcc;
+}
+
+.app {
+    background-image: url('../images/background.png');
+    background-repeat: no-repeat;
+    background-position: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.preloader {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-image: url(./../images/loading.gif);
+    background-color: #fff;
+    background-size: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 100;
+}
+.preloader__video {
+    width: 100%;
+    height: 100%;
+}
+.special {
+    display: none;
+    position: absolute;
+    top: 170px;
+    right: 0;
+    width: 330px;
+    text-align: center;
+}
+.special__picture {
+    height: 400px;
+}
+
+.splashscreen {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+.splashscreen__close {
+    background: url('./../images/button.png') #fff;
+    border:0;
+    width: 420px;
+    height: 62px;
+    bottom: 50px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 55px
+}
+.splashscreen__close:active {
+    margin-top:60px;
+}
+.splashscreen__line1 {
+    margin-top: 111px;
+    font-size: 43px;
+}
+.splashscreen__line2 {
+    margin-top: 33px;
+    line-height: normal;
+    font-size: 31px;
+}
+.splashscreen__line3 {
+    font-size: 40px;
+}
+
+.results {
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background:  #fff;
+    text-align: center;
+}
+.results__header {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.results__header span {
+    color: #00cbcc;
+    font-size: 60px;
+}
+.results__subheader {
+    color: #00cbcc;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+.results__description {
+    width: 700px;
+    margin: 0 auto;
+    font-size: 30px;
+}
+.question {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 35px;
+    position: absolute;
+    right: 62px;
+    top: 70px;
+    height: 240px;
+    text-align: center;
+    width: 400px;
+}
+
+.answers {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 336px;
+    right: 10px;
+    width: 330px;
+    font-size: 25px;
+    list-style-type: none;
+}
+.answers li {
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+.answers li:hover {
+    color: #00cbcc;
+}
+
+.answers li small {
+    font-size: 22px;
+}
+
+.answer_true {
+    color: #a0cb75 !important;
+}
+.answer_false {
+    color: #cb7575 !important;;
+}
+
+.link {
+    text-decoration: none;
+    position: absolute;
+    bottom: 7px;
+    right: 130px;
+    color: #00cbcc;
+    text-transform: none;
+    font-size: 23px;
+}
+#vk_groups {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.share-wrapper {
+    text-align: center;
+    margin-top: 20px;
+}
+.share-wrapper img {
+    max-width: 100%;
+}

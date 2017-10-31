@@ -1,0 +1,70 @@
+html, body, .app {
+    margin:0 auto;
+    height: auto;
+    width: auto;
+}
+body {
+	background-image: url('../images/mobile-questions/1.png');
+	background-position: top center;
+	background-size: 100% auto;
+	max-width: 430px;
+}
+.app {
+	background: url('../images/mobile-background.png');
+	background-position: center 28px;
+	background-repeat: no-repeat;
+	margin:0 auto;
+	overflow: auto;
+	background-size: 100% auto;
+}
+
+
+.splashscreen__line1 {
+	font-size: 38px;
+}
+.splashscreen__line2 {
+    font-size: 28px;
+}
+.progress {
+	overflow: hidden;
+	position: inherit;
+	left: auto;
+	text-align: center;
+	margin-top: 20px;
+}
+.progress__item {
+    display: inline-block;
+    margin-right: 15px;
+}
+.question {
+	position: inherit;
+	width: auto;
+	margin-top: 300px;
+	font-size: 30px;
+}
+.answers {
+	position: inherit;
+	width: auto;
+}
+.link {
+	top: 230px;
+    right: 10px;
+	margin-top: 50px;
+	display: block;
+	text-align: center;
+	font-size: 20px;
+	bottom: inherit;
+}
+.results__description {
+	width: auto;
+	padding: 10px;
+}
+
+.special {
+	background:#fff;
+	position: absolute;
+	top:0;
+	z-index: 100;
+	width: 100%;
+}
+
